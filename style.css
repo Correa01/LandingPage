@@ -32,6 +32,17 @@ body{
     height: 470px;
     left: 65px;
 }
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+#btn{
+    margin-left: 20px;
+    background-color: #CAE3D6;
+    margin-top: 230px;
+    padding: 10px 20px 10px 20px;
+}
 footer{
     display: flex;
     background-color: rgba(128, 128, 128, 0.473);;
