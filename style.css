@@ -20,16 +20,21 @@
     position: relative;
     left: 200px;
 }
+body{
+    background-color: #CAE3D6;
+}
 .container{
     position: relative;
-    background-color: blueviolet;
+    border: 2px solid rgba(128, 128, 128, 0.473);
     width: 90%;
-    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 470px;
     left: 65px;
 }
 footer{
     display: flex;
-    background-color: blue;
+    background-color: rgba(128, 128, 128, 0.473);;
     height: 88px;
     justify-content: center;
     align-items: center;
