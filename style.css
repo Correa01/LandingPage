@@ -21,8 +21,10 @@
     left: 200px;
 }
 body{
-    background-image: url(./rain-coming-down-window.jpg);
+    opacity:0.7 ;
+    background-image: url(./blue-phone-case-and-eyeglasses-on-wooden-table.jpg);
     background-size: cover;
+    background-position: top;
 }
 .container{
     background-color: rgba(128, 128, 128, 0.473);
@@ -51,9 +53,11 @@ body{
     margin-bottom:0px}
 #btn{
     margin-left: 30px;
-    background-color: #CAE3D6;
-    margin-top: 90px;
+    background-color:black;
+    color: white;
+    margin-top: 50px;
     padding: 10px 20px 10px 20px;
+    border: none;
 }
 footer{
     display: flex;
@@ -61,3 +65,26 @@ footer{
     height: 88px;
     justify-content: center;
     align-items: center;
+}
+.barra{
+    position: absolute;
+
+    left: 50%;
+    width: 2px;
+    background-color: rgba(240, 248, 255, 0.363);
+    display: flex;
+    height: 100%;
+    
+}
+.Logo{
+    background-color: aliceblue;
+    display:inline-block;
+    width: 50%;
+    height: 70px;
+}
+#logomarca{
+    opacity: 0.5;
+    max-width: 150px;
+    max-height:70px ;
+    width: 150px;
+}
